@@ -24,6 +24,7 @@ nav div {
 
 .logo img {
     margin-top: -10px;
+    border-radius: 50%;
     margin-left: -40px;
     overflow: hidden;
 }
@@ -63,11 +64,11 @@ h1 {
 #details h1 {
     line-height: 80px;
     color: rgb(54, 51, 51);
-    margin-left: 20px;
+    margin-left: 60px;
 }
 #details select{
     width: 50px;
-    margin-left: 20px;
+    margin-left: 60px;
     
 }
 
@@ -229,4 +230,98 @@ pre{
 .value button{
     margin-left: 15px;
     margin-top: -3px;
+}
+.abridetail{
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 20px;
+}
+.description{
+    margin-left: -50px;
+    text-align: justify;
+    line-height: 50px;
+    font-weight: lighter;
+
+}
+.description h3{
+    line-height: 50px;
+    font-weight: 100;
+}
+.description li{
+    
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.description li::marker{
+    content: '✔️';
+}
+.investors{
+    margin-left: 70px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.big , .small{
+  
+    margin-top: 30px;
+    margin-left: -60px;
+    text-align: justify;
+}
+.big{
+    font-size: 15px;
+    text-wrap: wrap;
+}
+.small{
+    font-size: 10px;
+}
+.imagesample{
+    padding: 20px;
+    margin-left: -100px;
+}
+.mining{
+    margin-left: 140px;
+}
+.mining img{
+    margin-top: 30px;
+    margin-left: -80px;
+}
+.mine{
+    margin-left: 40px;
+}
+.finance{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.disc{
+    margin-top: 30px;
+    text-align: justify;
+}
+.disc h1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+ .h3{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: -50px;
+}
+.howstart{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.howstart img{
+    margin-left: -30px;
+    margin-top: 30px;
+}
+.distribution{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.information{
+    color: rgb(66, 64, 64);
+}
+.copyright{
+ background-color: #e5f9f0;
+ margin-top: -20px;
+ padding: 20px;
 }
